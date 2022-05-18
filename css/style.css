@@ -1,3 +1,13 @@
+:root {
+  /* colours */
+  --color--white: #fff;
+  --clr-primary-dark: #1f2f56;
+
+  /* card measurements */
+  --card-width: 400px;
+  --card-heigth: 600px;
+}
+
 *,
 *::after,
 *::before {
@@ -8,9 +18,37 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Red Hat", sans-serif;
 }
 
 body {
   box-sizing: border-box;
   background-image: url("../img-ak/png-background.png");
+  background-position: top;
+  background-size: 210vh;
+  text-align: center;
+}
+
+.card {
+  width: var(--card-width);
+  height: var(--card-heigth);
+  background-color: var(--color--white);
+  margin: 4% auto;
+  border-radius: 10px;
+  box-shadow: 0 16px 20px #0005;
+  overflow: hidden;
+}
+
+.card--img__main {
+  width: var(--card-width);
+}
+
+.card--content {
+  padding: 20px 90px;
+}
+
+.card--heading {
+  font-size: 27;
+  color: var(--clr-primary-dark);
+  font-weight: 700;
 }
