@@ -1,11 +1,21 @@
 :root {
   /* colours */
   --color--white: #fff;
+  --color-primary-main: #3829e0;
   --clr-primary-dark: #1f2f56;
+  --clr-primary-light: #7280a7;
+  --clr-bg1: #f5f7ff;
 
   /* card measurements */
-  --card-width: 400px;
-  --card-heigth: 600px;
+  --card-width: 35rem;
+  --card-heigth: 55rem;
+
+  /* border */
+  --brd-rds: 1rem;
+
+  /* font size */
+  --primary-font: 2rem;
+  --secondary-font: 1rem;
 }
 
 *,
@@ -18,7 +28,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Red Hat", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 body {
@@ -33,9 +43,9 @@ body {
   width: var(--card-width);
   height: var(--card-heigth);
   background-color: var(--color--white);
-  margin: 4% auto;
-  border-radius: 10px;
-  box-shadow: 0 16px 20px #0005;
+  margin: 5.5% auto;
+  border-radius: var(--brd-rds);
+  box-shadow: 0 1.6rem 2rem #0005;
   overflow: hidden;
 }
 
@@ -44,11 +54,104 @@ body {
 }
 
 .card--content {
-  padding: 20px 90px;
+  padding: 2rem 6rem;
 }
 
 .card--heading {
-  font-size: 27;
+  font-size: var(--primary-font);
   color: var(--clr-primary-dark);
   font-weight: 700;
+  margin: 1rem;
+}
+
+.card--para {
+  font-size: var(--secondary-font);
+  font-weight: 500;
+  color: var(--clr-primary-light);
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+.order-summary {
+  margin: 3rem 0;
+  padding: 5px 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-bg1);
+}
+
+.imgAndType {
+  font-size: var(--secondary-font);
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.order--details {
+  font-size: var(--secondary-font);
+}
+
+.order-type {
+  color: var(--clr-primary-dark);
+  font-weight: 700;
+}
+
+.order--cost {
+  color: var(--clr-primary-light);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.btn--link {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: var(--secondary-font);
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color-primary-main);
+}
+
+.btn--link:active {
+  color: rgb(84, 84, 84);
+}
+
+.btn {
+  margin: 2rem 0;
+  display: block;
+  width: 23rem;
+  height: 4rem;
+  border: none;
+  background-color: transparent;
+  font-size: var(--secondary-font);
+  font-weight: 900;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.btn--blue {
+  background-color: var(--color-primary-main);
+  border-radius: var(--brd-rds);
+  color: var(--color--white);
+}
+.btn--blue:active {
+  background-color: #7063fe;
+}
+
+.btn--white {
+  color: var(--clr-primary-light);
+  margin-top: -15px;
+}
+
+.btn--white:active {
+  color: rgb(84, 84, 84);
+}
+
+/* hover effects and animation */
+button:hover {
+  cursor: pointer;
 }
