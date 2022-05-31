@@ -8,7 +8,7 @@
 
   /* card measurements */
   --card-width: 35rem;
-  --card-heigth: 55rem;
+  --card-heigth: 50rem;
 
   /* border */
   --brd-rds: 1rem;
@@ -35,7 +35,7 @@ body {
   box-sizing: border-box;
   background-image: url("../img-ak/png-background.png");
   background-position: top;
-  background-size: 210vh;
+  background-size: 220vh;
   text-align: center;
 }
 

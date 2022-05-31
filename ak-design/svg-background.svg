@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect width="1440" height="900" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="MacBook-Pro-15" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="background" transform="translate(-0.9999995 -0.49993896)">
+      <path d="M756 428.5L223.776 898.5L0 898.5L756 428.5Z" id="New-shape-4" fill="#BEFED2" fill-rule="evenodd" stroke="none" />
+      <path d="M756.5 428.5L428.255 898.5L224.5 898.5L756.5 428.5Z" id="New-shape-3" fill="#A1FFD9" fill-rule="evenodd" stroke="none" />
+      <path d="M756 425.5L756 898.5L427.5 898.5L756 425.5Z" id="New-shape-2" fill="#99FFF5" fill-rule="evenodd" stroke="none" />
+      <path d="M1457 900.5L756 428.5L756 900.5L1457 900.5Z" id="New-shape" fill="#91F1FC" fill-rule="evenodd" stroke="none" />
+      <path d="M1443 0L750 425.657L1443 899L1443 0Z" id="New-shape" fill="#86D3FD" fill-rule="evenodd" stroke="none" />
+      <path d="M1 1L1441 1L1 901L1 1Z" id="tringle1" fill="#78AEFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
